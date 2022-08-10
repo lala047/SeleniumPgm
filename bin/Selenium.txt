@@ -1,0 +1,52 @@
+Purple color - Tag Name
+
+Red Color - Attribute
+
+Blue Color - Value
+
+Black Color - Text
+
+1- //tagname[@attribute='value']
+
+//input[@title='Search']
+
+2-  //tagname[text()='text value']
+
+//a[text()='Gmail']
+
+//a[text()='Customer Service']
+
+3 - (//a[text()='Customer Service'])[1]---- Location wise xpath
+
+4 - 
+
+//a[text()='Today's Deals']
+
+//tagname[contains(text(),'search value')]
+
+//a[contains(text(),'Deals')]
+
+
+
+dont use - class and href attribute - 
+it will change multiple time by developer
+
+
+
+================================
+https://www.boohoo.com/
+Dresses      -    //a[@data-tau='menu_item_level2_dresses']
+Black Dresses -- //a[text()='Black Dresses']
+ALL CLOTHING  -----//a[@data-tau='menu_item_level2_all-clothing']
+view cart(icon shopping bag)------ ?
+wish list ---- //svg[@class='i-icon i-icon-shoppingBag']    ?
+
+
+//span[normalize-space()='SUMMER']
+
+
+https://demo.guru99.com/test/delete_customer.php
+
+
+
+a
